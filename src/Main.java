@@ -26,16 +26,16 @@ public static void main(String[] args) {
 
     System.out.println("Ordenamientos");
 
-    System.out.print("Arreglo original: ");
+    System.out.print("Arreglo original- ");
     for(int i = 0; i < arrayDesordenado.length; i++) {
-        System.out.print(arrayDesordenado[i]+"")
+        System.out.print(arrayDesordenado[i]+" ")
         ;
     }
     System.out.println();
     int[] resultadoBubble = misAlgoritmos.bubbleSort(arrayDesordenado);
     System.out.print("BubbleSort - ");
     for (int i = 0; i < resultadoBubble.length;i++){
-        System.out.print(resultadoBubble[i]+ "");
+        System.out.print(resultadoBubble[i]+ " ");
 
     }
     System.out.println();
@@ -68,9 +68,9 @@ public static void main(String[] args) {
 
     }
     System.out.println();
-    System.out.print("Arreglo original sin modificar");
+    System.out.print("Arreglo original sin modificar - ");
     for (int i = 0; i< arrayDesordenado.length; i++){
-        System.out.print(arrayDesordenado[i]+"");
+        System.out.print(arrayDesordenado[i]+" ");
 
     }
     System.out.println();
